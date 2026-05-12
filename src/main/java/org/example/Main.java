@@ -33,6 +33,7 @@ public class Main {
                 message = "Vehicle: " + vehicle.getYear() + " " + vehicle.getMakeModel();
             }
 
+            System.out.println("---*-----+----*------*---+-----*----+");
             System.out.println(asset.getDescription());
             System.out.println("Date Acquired: " + asset.getDateAcquired());
             System.out.println("Original cost: $" + asset.getOriginalCost());
