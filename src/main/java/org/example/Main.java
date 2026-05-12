@@ -15,5 +15,11 @@ public class Main {
         myAssets.add(new House("Vacation home.", "2025-10-22", 250000,
                 "1877 beach road", 2, 1500, 6000));
 
+        myAssets.add(new Vehicle("My car", "2021-06-17",
+                6000, "Honda CR-V", 2008, 40000));
+
+        myAssets.add(new Vehicle("Tom's truck", "2024-08-04",
+                15000, "Chevrolet Malibu", 2023, 60000));
+
     }
 }
